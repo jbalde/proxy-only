@@ -1,11 +1,20 @@
 
 # Simple http-proxy
 
-```
+Simple HTTP proxy.
+
+```bash
+# Install
 $ pm2 install proxy-only
+# Logs
+$ pm2 logs proxy-only
+# Uninstall
+$ pm2 uninstall proxy-only
+# Install PM2
+$ npm install pm2 -g
 ```
 
-or
+or without daemonization:
 
 ```
 $ npm install proxy-only -g
@@ -20,4 +29,4 @@ $ proxy-only
 .setProxy(ip, 8213,  'http')
 ```
 
-Should be the same with Chrome and Firefox.
+Should work with Chrome and Firefox.

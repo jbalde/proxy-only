@@ -1,6 +1,6 @@
 {
   "name": "proxy-only",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "reverse-proxy.js",
   "bin" : {
@@ -10,8 +10,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies" : {
-    "http-proxy" : "*"
+    "http-proxy" : "*",
+    "public-ip" : "*",
+    "fmt" : "*"
   },
-  "author": "",
+  "author": "Alexandre Strzelewicz",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gridcontrol/proxy-only.git"
+  },
   "license": "ISC"
 }
